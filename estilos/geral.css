@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 html{
@@ -12,7 +13,7 @@ html{
 
 body{
     position: relative;
-    background-color: rgb(170, 170, 170);
+    background-color: #5d2c80;
 }
 
 main{
@@ -20,20 +21,77 @@ main{
     left: 50%;
     top: 50%;
     transform: translate(-50%, 50%);
+    border-radius: 25px;
 }
 
 main h1{
     text-align: center;
+    padding: 10px;
+}
+
+main p{
+    padding: 10px;
 }
 
 #imagem{
     background: url(../imagens/pexels-mel-gomes-290426165-13183160.jpg) bottom center;
     background-size: cover;
-    height: 350px;
+    height: 280px;
     width: 300px;
     border-radius: 15px 15px 0px 0px;
 }
 
 #formulario{
     width: 300px;
+    text-align: center;
+    background-color: white;    
+     border-radius: 0px 0px 15px 15px;
+}
+
+.escreva{
+    text-align: left;
+    width: 200px;
+    height: 40px;
+    border: 2px solid #5d2c80;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#person{
+    width: 40px;
+    height: 40px;
+
+}
+
+#laço{
+    background-color: #5d2c80;
+    display: inline-block;
+    height: 40px ;
+    width: 40px;
+    transform: translate(0px, 14px);
+    
+}
+
+label{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    transform: translate(0px, 14px);
+}
+
+.material-symbols-outlined{
+    display: inline-block;
+    background-color: #5d2c80;
+    color: white;
+    font-size: 40px;
+}
+
+#login{
+    display: inline-block;
+    background-color: #e4f2fb;
+}
+
+#senha{
+    background-color: #91cfca;
 }
