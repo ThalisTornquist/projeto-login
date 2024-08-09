@@ -53,31 +53,33 @@ main p{
     width: 200px;
     height: 40px;
     border: 2px solid #5d2c80;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 10px 10px 10px 10px;
     font-size: 1.2em;
     margin-bottom: 10px;
 }
 
 #person{
     width: 40px;
-    height: 40px;
+    height: 45px;
 
 }
 
 #laço{
     background-color: #5d2c80;
     display: inline-block;
-    height: 40px ;
-    width: 40px;
-    transform: translate(0px, 14px);
+    height: 45px ;
+    width: 250px;
+   position: relative;
     
 }
 
 label{
     height: 40px;
     width: 40px;
-    display: inline-block;
-    transform: translate(0px, 14px);
+    display: inline-block; transform: translate(0px, 14px);
+    left: 50%;
+    top: 50%;
+    transform: translate(-290%, 0%);
 }
 
 .material-symbols-outlined{
@@ -90,8 +92,13 @@ label{
 #login{
     display: inline-block;
     background-color: #e4f2fb;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #senha{
     background-color: #91cfca;
+    margin-top: 100px;
 }
