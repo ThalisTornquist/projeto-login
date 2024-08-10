@@ -4,7 +4,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
+
 }
 
 html, body{
@@ -45,7 +45,7 @@ main p{
     width: 300px;
     text-align: center;
     background-color: white;    
-     border-radius: 0px 0px 15px 15px;
+    border-radius: 0px 0px 15px 15px;
 }
 
 .escreva{
@@ -142,6 +142,12 @@ main p{
     font-size: 1.2em;
 }
 
+.b1:hover{
+    background-color: #2a5855;
+    color: white;
+    cursor: pointer;
+}
+
 .b2{
     border: 2px solid #4da59e;
     border-radius: 10px;
@@ -150,6 +156,12 @@ main p{
     color: #4da59e;
     background-color: white;
     font-size: 1.2em;
+}
+
+.b2:hover{
+    cursor: pointer;
+    background-color: #64d4cb;
+    color: #336b66;
 }
 
 #botao2{
