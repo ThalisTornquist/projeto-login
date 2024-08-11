@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+main{
+    width: 900px;
+    height: 350px;
+}
+
+
+#sec{
+    height: 350px; 
+    position: relative;
+}
+
+#imagem{
+    display: inline-block;
+    width: 400px;
+    border-radius: 0px 15px 15px 0px;
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(12.5%, -50%);
+}
+
+#formulario{
+    width: 500px;
+    height: 350px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%, -50%);
+    border-radius: 15px 0px 0px 15px;
+}
+
+#laço{
+    width: 400px;
+}
+
+#laço2{
+    width: 400px;
+}
+
+#senha{
+    width: 350px;
+    transform: translate(-45%, -62%);
+}
+
+#forsenha{
+    transform: translate(-540%, -50%);
+    border-radius: 10px;
+    height: 44px;
+}
+
+#login{
+    width: 350px;
+    transform: translate(-45%, -50%);
+}
+
+.label{
+    transform: translate(-490%, 0%);
+}
+#person2{
+    width: 40px;
+    height: 44px;
+    border-radius: 10px;
+    position: absolute;
+    left: 15px;
+}
+
+.b1, .b2{
+    width: 400px;
+}
