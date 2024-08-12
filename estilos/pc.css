@@ -9,28 +9,34 @@ main{
 #sec{
     height: 350px; 
     position: relative;
+    width: 950px;
 }
 
 #imagem{
     display: inline-block;
-    width: 400px;
-    border-radius: 0px 15px 15px 0px;
+    width: 400px; 
     height: 350px;
-    position: absolute;
+    width: 50%;
+    float: right;
+
+    /*position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(12.5%, -50%);
+    transform: translate(12.5%, -50%);*/
 }
 
 #formulario{
     width: 500px;
     height: 350px;
     display: inline-block;
-    position: absolute;
+    width: 50%;
+    float: left;
+
+    /*position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-90%, -50%);
-    border-radius: 15px 0px 0px 15px;
+    transform: translate(-90%, -50%);*/
+   
 }
 
 #laço{

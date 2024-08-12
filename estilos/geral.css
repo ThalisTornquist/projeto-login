@@ -22,7 +22,13 @@ main{
     top: 50%;
     transform: translate(-50%, -50%);
     border-radius: 25px;
+    overflow: hidden;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.356);
+    transition: width .5s, height .5s;
+}
+
+#sec{
+    transition: width .5s, height .5s;
 }
 
 main h1{
@@ -40,6 +46,7 @@ main p{
     height: 280px;
     width: 300px;
     border-radius: 15px 15px 0px 0px;
+    display: block;
 }
 
 #formulario{
@@ -47,6 +54,7 @@ main p{
     text-align: center;
     background-color: white;    
     border-radius: 0px 0px 15px 15px;
+    display: block;
 }
 
 .escreva{
