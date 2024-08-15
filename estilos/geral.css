@@ -39,6 +39,7 @@ main h1{
 
 main p{
     padding: 10px;
+    font-size: 0.9em;
 }
 
 #imagem{
@@ -61,7 +62,7 @@ main p{
 
 .escreva{
     text-align: left;
-    width: 200px;
+    width: 78%;
     height: 40px;
     border: 2px solid #5d2c80;
     border-radius: 10px 10px 10px 10px;
@@ -81,7 +82,7 @@ main p{
     background-color: #5d2c80;
     display: inline-block;
     height: 44px ;
-    width: 250px;
+    width: 85%;
     position: relative;
     border-radius: 10px;
     margin: auto;
@@ -116,7 +117,7 @@ main p{
     background-color: #5d2c80;
     display: inline-block;
     height: 44px;
-    width: 250px;
+    width: 85%;
     position: relative;
     border-radius: 10px;
     margin: 10px auto;
@@ -148,7 +149,7 @@ main p{
     border: none;
     border-radius: 10px;
     height: 44px;
-    width: 250px;
+    width: 85%;
     color: white;
     font-size: 1.2em;
 }
@@ -159,24 +160,32 @@ main p{
     cursor: pointer;
 }
 
-.b2{
-    border: 2px solid #4da59e;
-    border-radius: 10px;
-    height: 44px;
-    width: 250px;
-    color: #4da59e;
-    background-color: white;
-    font-size: 1.2em;
+.margin{
+    padding-bottom: 15px;
 }
 
-.b2:hover{
+.b2{
+    color: #4da59e;
+    background-color: white;
+}
+
+#botao2:hover{
     cursor: pointer;
     background-color: #64d4cb;
     color: #336b66;
 }
 
 #botao2{
+    border: 2px solid #4da59e;
+    border-radius: 10px;
+    font-size: 1.2em;
+    text-decoration: none;
     padding: 10px;
+    margin: 10px auto 0px auto;
+    width: 85%;
+    display: block;
+    box-sizing: border-box;
+    height: 44px;
 }
 
 .material-symbols-outlined {
@@ -191,9 +200,4 @@ main p{
     background-color: transparent;
     color: #4da59e;
     font-size: 15px;
-}
-
-p#esqueci{
-    margin: 0px;
-    padding: 0px;
 }

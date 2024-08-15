@@ -36,7 +36,7 @@ main{
     float: right;
     height: 100%;
     width: 70%;
-    
+    border-radius: 0px;
     /*position: absolute;
     top: 50%;
     left: 50%;
@@ -45,32 +45,41 @@ main{
     width: 500px;*/
 }
 
+.escreva{
+    width: 78%;
+}
+
 #laço{
-    width: 400px;
+    width: 85%;
 }
 
 #laço2{
-    width: 400px;
+    width: 85%;
 }
 
 #senha{
-    width: 350px;
-    transform: translate(-45%, -62%);
+    width: 80%;
+    float: right;
+    
 }
 
 #forsenha{
-    transform: translate(-540%, -50%);
+    transform: none;
     border-radius: 10px;
     height: 44px;
+    float: left;
 }
 
 #login{
-    width: 350px;
-    transform: translate(-45%, -50%);
+    width: 80%;
+    float: right;
 }
 
 .label{
-    transform: translate(-490%, 0%);
+    float: left;
+    transform: none;
+    width: 20%;
+    margin: auto;
 }
 #person2{
     width: 40px;
@@ -81,5 +90,5 @@ main{
 }
 
 .b1, .b2{
-    width: 400px;
+    width: 85%;
 }
