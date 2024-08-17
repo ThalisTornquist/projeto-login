@@ -20,12 +20,12 @@ main{
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
     border-radius: 25px;
     overflow: hidden;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.356);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -135,10 +135,10 @@ main p{
     position: absolute; 
     left: 50%;
     top: 50%;
-    transform: translate(-305%, -50%);
     width: 40px;
     height: 42px;
     border-radius: 10px;
+    transform: translate(-305%, -50%);
 }
 
 .b1{
