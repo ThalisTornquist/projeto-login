@@ -7,18 +7,14 @@ body{
 
 main{
     width: 900px;
-    height: 350px;
+    height: 350px; 
+    position: relative;
 }
 
 main p{
     margin-bottom: 15px;
 }
 
-#sec{
-    height: 350px; 
-    position: relative;
-    width: 950px;
-}
 
 #imagem{
     display: block;
@@ -62,7 +58,7 @@ main p{
 }
 
 #forsenha{
-    transform: translate(-540%, -50%);
+    transform: translate(-536%, -50%);
     border-radius: 10px;
     height: 44px;
 }
@@ -73,7 +69,7 @@ main p{
 }
 
 .label{
-    transform: translate(-490%, 0%);
+    transform: translate(-485%, 0%);
 }
 #person2{
     width: 40px;

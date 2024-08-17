@@ -28,9 +28,6 @@ main{
     transition-timing-function: ease;
 }
 
-#sec{
-    transition: width .3s, height .3s;
-}
 
 main h1{
     text-align: center;
@@ -76,6 +73,7 @@ main p{
     border-radius: 10px;
     position: absolute;
     left: 15px;
+    
 }
 
 #laço{
@@ -94,12 +92,11 @@ main p{
     display: inline-block; 
     left: 50%;
     top: 50%;
-    transform: translate(-290%, 0%);
+    transform: translate(-295%, 0%);
 }
 
 .material-symbols-outlined{
     display: inline-block;
-    background-color: #5d2c80;
     color: white;
     font-size: 42px;
 }
@@ -124,7 +121,7 @@ main p{
 }
 
 #senha{
-    background-color: #91cfca;
+    background-color: #e4f2fb;
     margin-top: 5px;
     display: inline-block;
     position: absolute;
@@ -138,7 +135,7 @@ main p{
     position: absolute; 
     left: 50%;
     top: 50%;
-    transform: translate(-300%, -50%);
+    transform: translate(-305%, -50%);
     width: 40px;
     height: 42px;
     border-radius: 10px;
@@ -162,6 +159,7 @@ main p{
 
 .margin{
     padding-bottom: 15px;
+    background-color: white;
 }
 
 .b2{

@@ -8,16 +8,17 @@ body{
 
 main{
     height: 324px;
-}
-
-#sec{
-    height: 324px; 
     position: relative;
     width: 80vw;
 }
 
+#sec{
+    height: 324px; 
+    
+}
+
 #imagem{
-    display: inline-block;
+    display: block;
     float: left;
     height: 100%;
     width: 30%;
@@ -46,11 +47,24 @@ main{
 }
 
 .escreva{
-    width: 78%;
+    width: 88%;
 }
 
 #laço{
     width: 85%;
+    height: 44px;
+}
+
+#labe1{
+    float: left;
+    width: 11%;
+    height: 40px;
+}
+
+#labe2{
+    float: right;
+    width: 88%;
+    height: 40px;
 }
 
 #laço2{
@@ -58,35 +72,59 @@ main{
 }
 
 #senha{
-    width: 80%;
+    width: 100%;
     float: right;
-    
+    transform: none;
+    left: 0px;
+    top: 0px;
+    position: relative;
+    margin: 0px;
+}
+
+#sen1{
+    float: left;
+    width: 12%;
+    height: 40px;
+}
+
+#sen2{
+    float: right;
+    width: 88%;
+    height: 40px;
 }
 
 #forsenha{
     transform: none;
-    border-radius: 10px;
-    height: 44px;
-    float: left;
+    left: 0px;
+    top: 0px;
+    position: relative;
+    width: 100%;
 }
 
 #login{
-    width: 80%;
+    width: 100%;
     float: right;
+    transform: none;
+    left: 0px;
+    top: 0px;
+    position: relative;
 }
 
 .label{
-    float: left;
     transform: none;
-    width: 20%;
-    margin: auto;
+    left: 0px;
+    top: 0px;
+    position: relative;
+    width: 100%;
 }
+
+#person{
+    position: relative;
+    left: 0px;
+}
+
 #person2{
-    width: 40px;
-    height: 44px;
-    border-radius: 10px;
-    position: absolute;
-    left: 15px;
+   position: relative;
 }
 
 .b1, .b2{
